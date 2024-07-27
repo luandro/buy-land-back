@@ -29,8 +29,97 @@ a {
     color: #4caf50;
 }
 
+.main-container {
+    background-color: #2c3e50;
+}
+
 .main {
-    padding: 0 20px;
+    padding: 50px 20px;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.1em;
+    }
+
+    .main {
+        padding: 70px 30px;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    header p {
+        font-size: 1.5em;
+    }
+
+    .cta-button {
+        font-size: 1.3em;
+        padding: 20px 50px;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    p,
+    ul {
+        font-size: 1.2em;
+    }
+
+    ul li {
+        padding: 20px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.2em;
+    }
+    .main {
+        max-width: 968px;
+        padding: 25px 0;
+        margin: 0 auto;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    header p {
+        font-size: 1.7em;
+    }
+
+    .cta-button {
+        font-size: 1.4em;
+        padding: 25px 60px;
+    }
+
+    section {
+        padding: 100px 40px;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    p,
+    ul {
+        font-size: 1.3em;
+    }
+
+    ul li {
+        padding: 25px;
+    }
 }
 
 /* Container */
@@ -42,7 +131,6 @@ a {
 
 /* Header */
 header {
-    background-color: #2c3e50;
     color: white;
     padding: 40px 0;
     text-align: center;
