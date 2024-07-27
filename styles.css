@@ -8,7 +8,29 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    position: relative;
+}
+
 #headerVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
     position: absolute;
     top: 0;
     left: 0;
