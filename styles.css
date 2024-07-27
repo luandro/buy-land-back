@@ -7,14 +7,47 @@ body {
     color: #333;
     background-color: #f4f4f4;
 
-    .intro-images {
-        flex-direction: column;
-        align-items: center;
+    .intro-categories {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .intro-category {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin: 10px;
+    }
+
+    .intro-category:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
     .intro-image {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .intro-text {
+        padding: 15px;
+    }
+
+    .intro-text h3 {
+        margin: 10px 0 5px;
+        font-size: 1.4em;
+        color: #2c3e50;
+    }
+
+    .intro-text p {
+        font-size: 1em;
+        color: #666;
     }
 
     header {
