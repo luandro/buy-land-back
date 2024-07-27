@@ -8,6 +8,16 @@ body {
     background-color: #f4f4f4;
 }
 
+#headerVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 h1,
 h2 {
     font-weight: 300;
