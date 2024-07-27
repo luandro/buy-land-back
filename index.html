@@ -29,6 +29,7 @@
                 <a href="#participation" class="cta-button">Participate</a>
             </div>
         </header>
+        <div class="transition-div"></div>
         <div class="main-container">
             <div class="main">
                 <section class="intro">
@@ -188,5 +189,15 @@
                 </p>
             </div>
         </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
     </body>
 </html>

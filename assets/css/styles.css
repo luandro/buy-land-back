@@ -8,6 +8,34 @@ body {
     background-color: #f4f4f4;
 }
 
+.transition-div {
+    height: 50px;
+    background: linear-gradient(to bottom, #2c3e50, #f4f4f4);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.intro-category {
+    padding: 15px 10px;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .intro-categories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
