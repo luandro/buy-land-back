@@ -18,7 +18,21 @@ body {
 
 header {
     position: relative;
-}
+    .intro-category {
+        text-align: center;
+        max-width: 200px;
+    }
+
+    .intro-category h3 {
+        margin: 10px 0 5px;
+        font-size: 1.2em;
+        color: #2c3e50;
+    }
+
+    .intro-category p {
+        font-size: 0.9em;
+        color: #666;
+    }
 
 #headerVideo {
     position: absolute;
