@@ -11,8 +11,8 @@ body {
 .transition-div {
     width: 0;
     height: 0;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
+    border-left: 49vw solid transparent;
+    border-right: 49vw solid transparent;
     border-bottom: 50px solid #2c3e50;
     margin: 0 auto;
 }
@@ -330,7 +330,7 @@ footer {
     text-align: center;
     padding: 15px 0;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     left: 0;
     bottom: 0;
     font-size: 0.9em;
