@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15bb18bc.css",
+    "main.js": "/static/js/main.fd5477b8.js",
+    "static/js/453.1d4fbc7b.chunk.js": "/static/js/453.1d4fbc7b.chunk.js",
+    "static/media/video.mp4": "/static/media/video.2c3c10a1c3b91569c1fa.mp4",
+    "static/media/video-2.mp4": "/static/media/video-2.430cafa47e11f486f278.mp4",
+    "static/media/image2.jpg": "/static/media/image2.4d066127dd535f081fd1.jpg",
+    "static/media/image3.jpg": "/static/media/image3.3d19d37eea86897bfe6b.jpg",
+    "static/media/image1.jpg": "/static/media/image1.9bbf165cb3de0ad176e3.jpg",
+    "static/media/f_6.jpg": "/static/media/f_6.a6407ca36c0e0fe2ae53.jpg",
+    "static/media/f_2.jpg": "/static/media/f_2.2cadf4449c18e2730f25.jpg",
+    "static/media/f_4.jpg": "/static/media/f_4.1d30071d15b27ae4387b.jpg",
+    "static/media/f_3.jpg": "/static/media/f_3.0004342a7f3d70eda04e.jpg",
+    "static/media/f_1.jpg": "/static/media/f_1.a7ce26c622981de59504.jpg",
+    "static/media/f_5.jpg": "/static/media/f_5.5407926b8c7fcec82029.jpg",
+    "static/media/noun-geodesic-dome-2185259.cleaned.svg": "/static/media/noun-geodesic-dome-2185259.cleaned.2d37a0cdc828ed2d03211d79e2fc8648.svg",
+    "index.html": "/index.html",
+    "main.15bb18bc.css.map": "/static/css/main.15bb18bc.css.map",
+    "main.fd5477b8.js.map": "/static/js/main.fd5477b8.js.map",
+    "453.1d4fbc7b.chunk.js.map": "/static/js/453.1d4fbc7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15bb18bc.css",
+    "static/js/main.fd5477b8.js"
+  ]
+}
