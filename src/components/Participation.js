@@ -14,7 +14,7 @@ const Participation = () => (
 				</p>
 				<a
 					href="/participate"
-					className="mt-8 px-6 py-3 bg-[#6c584c] text-[#f0ead2] rounded-full inline-block hover:bg-[#a98467]"
+					className="mt-8 px-6 py-3 bg-[#6c584c] text-[#f0ead2] rounded-full inline-block hover:bg-green-800"
 				>
 					{i18next.t("participation.button")}
 				</a>
