@@ -1,90 +1,70 @@
-## Help Us Give Land Back, While Bringing Together Communities, With a Negative-Carbon Footprint
+# Getting Started with the Buy Land Back Toolkit
 
-### Introduction
-This project envisions a sustainable alternative to traditional capitalistic practices in land and housing ownership. The primary goal is to utilize innovative crowdfunding strategies to finance the acquisition and development of land and housing units. The project's unique approach involves selling "time-shares" of housing units at a daily rate, generating sufficient funds for land purchase, construction, and infrastructure development. Ultimately, the project aims to return the land and its developed infrastructure to the indigenous peoples who originally inhabited it, ensuring a just and equitable transfer of property.
+This toolkit is designed to help you get started with the Buy Land Back project, which aims to create a sustainable alternative to traditional capitalistic practices in land and housing ownership. The project utilizes innovative crowdfunding strategies to finance the acquisition and development of land and housing units, ultimately returning the land to indigenous communities.
 
-### Objectives
-- Disrupt traditional capitalistic practices in real estate by advocating for community ownership and sustainability.
-- Promote rural community living for better mental health and well-being, enhancing social connections and supporting environmental regeneration.
-- Democratize land acquisition through an accessible crowdfunding model.
-- Honor and preserve cultural heritage by returning the land to indigenous communities after 50 years.
+## Available Scripts
 
-### Project Details
-- **Time-Share Model**: Housing units will be sold in 365 "shares," each corresponding to a day of the year.
-- **Crowdfunding Strategy**: Pool resources from multiple small investors, allowing them to easily invest in real estate.
+In the project directory, you can run:
 
-### Financial Plan
+### `npm start`
 
-**Updated Financials**
-- **Land Purchase Cost**: $300,000
-- **Housing Construction Cost**: $20,000 per unit
-- **Shared Infrastructure Cost**: $100,000
+Runs the app in development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Revenue Per Unit**
-- **Share Price**: $200 per day-share
-  - **Annual Revenue per Unit**: 365 days x $200/day = $73,000
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Calculation of Required Housing Units**
-To determine the number of housing units needed to cover the total cost of land, housing, and shared infrastructure:
+### `npm test`
 
-1. **Total Project Cost Calculation**:
-   - Land Purchase: $300,000
-   - Housing Construction: $20,000 per unit
-   - Shared Infrastructure: $100,000
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. **Total Revenue per Housing Unit:**
-   - Each housing unit generates: $73,000 annually
+### `npm run build`
 
-3. **Number of Housing Units Calculation (Formula)**:
-   ```
-   Total Project Cost = Land Cost + (Number of Units * Housing Cost) + Shared Infrastructure Cost
-   Total Revenue = Number of Units * Revenue per Unit
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Break-even Calculation:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   Simplifying:
-   ```
-   Number of Units = Total Project Cost / (Revenue per Unit - Housing Cost per Unit)
-   ```
+### `npm run eject`
 
-   Plug in the values:
-   ```
-   Number of Units = ($300,000 + $100,000) / ($73,000 - $20,000)
-   Number of Units = $400,000 / $53,000
-   Number of Units = 7.55
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Since the number of housing units must be a whole number, round up to:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-Number of Units = 8
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you're on your own.
 
-Thus, a minimum of 8 housing units are required to cover the costs of the land, housing, and shared infrastructure, given the updated parameters.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Simplified Roadmap
+## Learn More
 
-#### Phase 1: Foundational Planning
-   - **Engage with Indigenous Communities**: Ensure their needs and preferences are integrated into the project.
-   - **Set up Crowdfunding Campaign**: Choose a suitable crowdfunding platform and prepare the campaign materials.
-   - **Secure Initial Permits and Legal Documentation**: Obtain necessary approvals for land and housing development.
+To learn more about the Buy Land Back project and its goals, refer to the main [README](./README.md).
 
-#### Phase 2: Crowdfunding Campaign
-   - **Launch Campaign**: Target ethical investors and the broader community.
-   - **Market the Campaign**: Utilize social media, press releases, and community events to generate interest.
+For more information on Create React App, you can check out the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-#### Phase 3: Land Acquisition and Development
-   - **Purchase Land**: Use the raised funds to acquire the targeted land.
-   - **Begin Construction**: Start building the housing units and common infrastructure.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### Phase 4: Community Building
-   - **Promote Rural Living**: Organize activities and workshops to strengthen community bonds.
-   - **Integrate Local Economy**: Partner with local businesses and cooperatives to foster economic integration.
+### Code Splitting
 
-#### Phase 5: Transition and Sustainability
-   - **Plan for Land Transfer**: Develop a roadmap for transferring land ownership back to the indigenous communities after 50 years.
-   - **Ongoing Support**: Ensure continued community engagement and sustainability efforts.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Conclusion
-This concept note outlines a thoughtful and innovative approach to land ownership and community building, blending modern crowdfunding methods with traditional wisdom and sustainable living practices. Through careful planning and execution, this project aims to achieve long-term success by respecting the cultural heritage of indigenous communities and promoting sustainable and communal living.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
