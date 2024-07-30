@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "npx @biomejs/biome format --write ./src"
+    "lint": "npx @biomejs/biome format --write ./src ./public"
   },
   "eslintConfig": {
     "extends": [
