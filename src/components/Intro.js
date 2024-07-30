@@ -1,8 +1,8 @@
 import React from "react";
-import i18next from "../i18n";
 import image1 from "../assets/img/image1.jpg";
 import image2 from "../assets/img/image2.jpg";
 import image3 from "../assets/img/image3.jpg";
+import i18next from "../i18n";
 // import Feather from '../assets/img/noun-feather-5651696.svg'
 const Intro = () => (
 	<section className="intro pb-32 bg-[#dde5b4]">
@@ -14,7 +14,7 @@ const Intro = () => (
 				{i18next.t("intro.description")}
 			</p>
 			<div className="separator my-12 w-full">
-				<div className="w-full h-1 bg-gradient-to-r from-[#6c584c] via-[#adc178] to-[#dde5b4]"></div>
+				<div className="w-full h-1 bg-gradient-to-r from-[#6c584c] via-[#adc178] to-[#dde5b4]" />
 				<div className="flex justify-center mt-2">{/* <Feather /> */}</div>
 			</div>
 

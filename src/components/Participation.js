@@ -1,6 +1,6 @@
 import React from "react";
-import i18next from "../i18n";
 import { Element } from "react-scroll";
+import i18next from "../i18n";
 
 const Participation = () => (
 	<Element name="participate">

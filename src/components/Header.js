@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
+import { Link } from "react-scroll";
 import Logo from "../assets/img/noun-geodesic-dome-2185259.cleaned.svg";
 import Video from "../assets/vid/video.mp4";
-import { Link } from "react-scroll";
 
 const Header = () => {
 	const { t } = useTranslation();
@@ -21,7 +21,7 @@ const Header = () => {
 						type="video/mp4"
 						src={Video}
 					/>
-					<div className="absolute inset-0 bg-[#6c584c] opacity-50"></div>
+					<div className="absolute inset-0 bg-[#6c584c] opacity-50" />
 				</div>
 				<div className="relative container mx-auto text-center md:py-10">
 					<div className="flex justify-center">
@@ -43,7 +43,7 @@ const Header = () => {
 					</Link>
 				</div>
 			</header>
-			<div className="transition-div"></div>
+			<div className="transition-div" />
 		</div>
 	);
 };
