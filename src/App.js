@@ -3,10 +3,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Frameworks from "./components/Frameworks";
 import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Participation from "./components/Participation";
-import Roadmap from "./components/Roadmap";
-import VideoSection from "./components/VideoSection";
+import How from "./components/How";
+import Why from "./components/Why";
 
 function App() {
 	return (
@@ -14,7 +12,8 @@ function App() {
 			<Header />
 			<Intro />
 			<VideoSection />
-			<Frameworks />
+			<Why />
+			<How />
 			<Roadmap />
 			<Participation />
 			<Contact />
