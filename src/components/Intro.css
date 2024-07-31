@@ -2,32 +2,62 @@
   0% {
     transform: rotate(0deg);
   }
+  5% {
+    transform: rotate(1deg);
+  }
   10% {
+    transform: rotate(2deg);
+  }
+  15% {
     transform: rotate(3deg);
   }
   20% {
-    transform: rotate(6deg);
+    transform: rotate(4deg);
+  }
+  25% {
+    transform: rotate(5deg);
   }
   30% {
     transform: rotate(4deg);
   }
+  35% {
+    transform: rotate(3deg);
+  }
   40% {
     transform: rotate(2deg);
+  }
+  45% {
+    transform: rotate(1deg);
   }
   50% {
     transform: rotate(0deg);
   }
+  55% {
+    transform: rotate(-1deg);
+  }
   60% {
     transform: rotate(-2deg);
+  }
+  65% {
+    transform: rotate(-3deg);
   }
   70% {
     transform: rotate(-4deg);
   }
+  75% {
+    transform: rotate(-5deg);
+  }
   80% {
-    transform: rotate(-6deg);
+    transform: rotate(-4deg);
+  }
+  85% {
+    transform: rotate(-3deg);
   }
   90% {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
+  }
+  95% {
+    transform: rotate(-1deg);
   }
   100% {
     transform: rotate(0deg);
