@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/buy-land-back/static/css/main.7bdafa13.css",
-    "main.js": "/buy-land-back/static/js/main.08075293.js",
+    "main.css": "/buy-land-back/static/css/main.515e646d.css",
+    "main.js": "/buy-land-back/static/js/main.6551a3f9.js",
     "static/js/453.1d4fbc7b.chunk.js": "/buy-land-back/static/js/453.1d4fbc7b.chunk.js",
     "static/media/video.mp4": "/buy-land-back/static/media/video.2c3c10a1c3b91569c1fa.mp4",
     "static/media/video-2.mp4": "/buy-land-back/static/media/video-2.430cafa47e11f486f278.mp4",
@@ -14,14 +14,15 @@
     "static/media/f_3.jpg": "/buy-land-back/static/media/f_3.0004342a7f3d70eda04e.jpg",
     "static/media/f_1.jpg": "/buy-land-back/static/media/f_1.a7ce26c622981de59504.jpg",
     "static/media/f_5.jpg": "/buy-land-back/static/media/f_5.5407926b8c7fcec82029.jpg",
-    "static/media/noun-geodesic-dome-2185259.cleaned.svg": "/buy-land-back/static/media/noun-geodesic-dome-2185259.cleaned.2d37a0cdc828ed2d03211d79e2fc8648.svg",
+    "static/media/noun-feather-5651696.svg": "/buy-land-back/static/media/noun-feather-5651696.56275f1bc080a1be203c59559a5b7b24.svg",
+    "static/media/noun-geodesic-dome-2185259.cleaned.svg": "/buy-land-back/static/media/noun-geodesic-dome-2185259.cleaned.dcf7ea8ff3ee42685fcb436a2d03df4d.svg",
     "index.html": "/buy-land-back/index.html",
-    "main.7bdafa13.css.map": "/buy-land-back/static/css/main.7bdafa13.css.map",
-    "main.08075293.js.map": "/buy-land-back/static/js/main.08075293.js.map",
+    "main.515e646d.css.map": "/buy-land-back/static/css/main.515e646d.css.map",
+    "main.6551a3f9.js.map": "/buy-land-back/static/js/main.6551a3f9.js.map",
     "453.1d4fbc7b.chunk.js.map": "/buy-land-back/static/js/453.1d4fbc7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bdafa13.css",
-    "static/js/main.08075293.js"
+    "static/css/main.515e646d.css",
+    "static/js/main.6551a3f9.js"
   ]
 }
