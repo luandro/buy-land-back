@@ -24,7 +24,7 @@ Your app is ready to be deployed!
 
 ### `npm run content`
 
-The `npm run content` command is used to update the `en.json` file with the latest content from a Notion database. This script fetches data from the Notion database, processes it, and updates the `en.json` file located in the `src/assets/i18n` directory.
+The `npm run content` command is used to update the `translation.en.json` file with the latest content from a Notion database. This script fetches data from the Notion database, processes it, and updates the `translation.en.json` file located in the `src/assets/i18n` directory.
 
 To run this command, ensure you have the necessary environment variables set up:
 
@@ -33,6 +33,9 @@ To run this command, ensure you have the necessary environment variables set up:
 
 Once these environment variables are configured, you can run the command:
 
+### `npm run translate`
+
+The `npm run translate` command is used to automatically translate the `translation.en.json` file into Portuguese and Spanish using [jsontt](https://github.com/mololab/json-translator) which defaults to using free Google Translate. This script processes the English translations and generates corresponding translations in Portuguese and Spanish, saving them as `translation.pt.json` and `translation.es.json` respectively in the `src/assets/i18n` directory.
 
 ### `npm run eject`
 
@@ -56,12 +59,12 @@ If the `npm run build` command fails to minify, refer to the [troubleshooting gu
 
 ## Working with Notion
 
-To update the `en.json` file with data from a Notion database, follow these steps:
+To update the `translation.en.json` file with data from a Notion database, follow these steps:
 
 1. Ensure you have Node.js installed on your machine.
 2. Obtain a Notion API key and Database ID.
 
-### Steps to Update `en.json`
+### Steps to Update `translation.en.json`
 
 1. Set your Notion API key and Database ID as environment variables and run the update command:
    ```sh
@@ -69,8 +72,8 @@ To update the `en.json` file with data from a Notion database, follow these step
    ```
    Replace `secret_xxx` with your actual Notion API key and `xxx-xxx-xx` with your actual Database ID.
 
-2. The script `populate_en_json_notion_sdk.js` will fetch data from the specified Notion database and update the `en.json` file located in `src/assets/i18n/`.
+2. The script `populate_en_json_notion_sdk.js` will fetch data from the specified Notion database and update the `translation.en.json` file located in `src/assets/i18n/`.
 
-3. The script will also create a backup of the current `en.json` file with a timestamp before updating it.
+3. The script will also create a backup of the current `translation.en.json` file with a timestamp before updating it.
 
-By following these steps, you can ensure that your `en.json` file is always up-to-date with the latest content from your Notion database.
+By following these steps, you can ensure that your `translation.en.json` file is always up-to-date with the latest content from your Notion database.

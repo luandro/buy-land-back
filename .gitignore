@@ -10,7 +10,7 @@
 
 # production
 /build
-src/assets/i18n/en_*.json
+src/assets/i18n/translation.en_*.json
 
 # misc
 .DS_Store

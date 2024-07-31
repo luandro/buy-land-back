@@ -1,6 +1,9 @@
 import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
-import EnglishTranslations from "./assets/i18n/en.json";
+import EnglishTranslations from "./assets/i18n/translation.en.json";
+import SpanishTranslations from "./assets/i18n/translation.es.json";
+import PortugueseTranslations from "./assets/i18n/translation.pt.json";
 
 // the translations
 // (tip move them in a JSON file and import them,
@@ -10,21 +13,21 @@ const resources = {
 		translation: EnglishTranslations,
 	},
 	pt: {
-		translation: {},
+		translation: PortugueseTranslations,
 	},
 	es: {
-		translation: {},
+		translation: SpanishTranslations,
 	},
 };
 
+console.log("Current locale:", Intl.NumberFormat().resolvedOptions().locale);
+
 i18n
+	.use(LanguageDetector)
 	.use(initReactI18next) // passes i18n down to react-i18next
 	.init({
+		supportedLngs: ["en", "es", "pt"],
 		resources,
-		lng: "en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
-		// you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
-		// if you're using a language detector, do not define the lng option
-
 		interpolation: {
 			escapeValue: false, // react already safes from xss
 		},

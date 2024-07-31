@@ -21,8 +21,9 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 // The ID of the Notion database
 const DATABASE_ID = process.env.DATABASE_ID;
 
-// Path to the en.json file
-const EN_JSON_PATH = path.join(__dirname, "../src/assets/i18n/en.json");
+// Path to the English json file
+const jsonFileName = "translation.en.json";
+const EN_JSON_PATH = path.join(__dirname, "../src/assets/i18n", jsonFileName);
 
 // Function to fetch data from the Notion database
 
@@ -111,8 +112,8 @@ function updateEnJson(data) {
 	const currentEnJson = JSON.parse(fs.readFileSync(EN_JSON_PATH, "utf8"));
 	const oldTimestamp = currentEnJson.lastUpdated;
 	const oldFileName = EN_JSON_PATH.replace(
-		"en.json",
-		`en_${oldTimestamp}.json`,
+		jsonFileName,
+		`${jsonFileName.replace(".json", `_${oldTimestamp}.json`)}`,
 	);
 	fs.renameSync(EN_JSON_PATH, oldFileName);
 

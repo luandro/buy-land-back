@@ -8,6 +8,7 @@
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^13.5.0",
 		"i18next": "^23.12.2",
+		"i18next-browser-languagedetector": "^8.0.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-i18next": "^15.0.0",
@@ -21,7 +22,8 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"lint": "npx @biomejs/biome check --write ./src ./public ./scripts",
-		"content": "node scripts/populate_en_json_notion_sdk.js"
+		"content": "node scripts/populate_en_json_notion_sdk.js",
+		"translate": "npx jsontt src/assets/i18n/translation.en.json --module google --from en --to pt es --name translation --fallback yes --concurrencylimit 10"
 	},
 	"homepage": "https://luandro.github.io/buy-land-back/",
 	"eslintConfig": {
