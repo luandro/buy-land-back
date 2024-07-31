@@ -73,7 +73,9 @@
 		}
 	],
 	"contact.title": "Contact Us",
-	"contact.description": "Feel free to reach out to us via email.",
-	"contact.emailLabel": "Email: ",
-	"contact.email": "contact@ourdomain.com"
+	"contact.description": "We'd love to hear from you! Send us an email with your thoughts or questions.",
+	"contact.emailLabel": "Your Email",
+	"contact.nameLabel": "Your Name",
+	"contact.messageLabel": "Your Message",
+	"contact.sendButton": "Send"
 }

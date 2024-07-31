@@ -55,11 +55,11 @@ const Roadmap = () => {
 							<div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
 								<div className="flex items-center justify-between space-x-2 mb-1">
 									<div
-										className={`text-lg text-[#adc178] ${index % 2 !== 0 && "order-2"}`}
+										className={`md:text-lg text-[#adc178] ${index % 2 !== 0 && "md:order-2"}`}
 									>
 										{item.year}
 									</div>
-									<time className="font-caveat font-semibold uppercase text-lg text-[#6c584c]">
+									<time className="font-caveat font-semibold uppercase md:text-lg text-[#6c584c]">
 										{item.title}
 									</time>
 								</div>
