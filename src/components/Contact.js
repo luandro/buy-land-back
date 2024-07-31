@@ -91,22 +91,43 @@ const Contact = () => {
 							)}
 						</div>
 					))}
-
 					<button
 						type="submit"
-						className={`bg-[#a98467] py-4 px-12 text-lg font-medium text-center text-white uppercase rounded-lg sm:w-fit focus:ring-4 focus:outline-none ${
-							{
-								sending: "bg-[#adc178] cursor-not-allowed",
-								fail: "bg-red-700]",
-								default:
-									"bg-[#adc178] hover:bg-[#dde5b4] dark:bg-[#6c584c] dark:hover:bg-[#a98467]",
-							}[status]
+						className={`cursor-pointer py-4 px-12 text-lg mx-auto font-medium text-center text-white uppercase rounded-lg sm:w-fit focus:ring-4 focus:outline-none ${
+							status === "success"
+								? "hidden cursor-not-allowed"
+								: status === "sending"
+									? "bg-[#adc178] cursor-not-allowed"
+									: status === "error"
+										? "bg-red-700"
+										: "hover:bg-[#adc178] bg-[#a98467]"
 						}`}
-						disabled={status === "sending"}
+						disabled={status === "sending" || status === "success"}
 					>
-						{status === "fail" && setTimeout(() => setStatus("idle"), 3000)}
+						{status === "error" && setTimeout(() => setStatus("idle"), 3000)}
 						{i18next.t("contact.sendButton")}
 					</button>
+					<div
+						className={`flex items-center justify-center ${status !== "success" && "hidden"}`}
+					>
+						<div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+							<svg
+								className="w-6 h-6 text-[#adc178]"
+								fill="none"
+								stroke="currentColor"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<title>Check</title>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
+									d="M5 13l4 4L19 7"
+								/>
+							</svg>
+						</div>
+					</div>
 				</form>
 			</div>
 		</section>

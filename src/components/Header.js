@@ -27,7 +27,7 @@ const Header = () => {
 					<div className="flex justify-center">
 						<img src={Logo} alt="Logo" className="h-[auto] w-[250px]" />
 					</div>
-					<h1 className="lg:text-5xl md:text-4xl font-bold px-4 text-white max-w-prose mx-auto text-3xl">
+					<h1 className="lg:text-5xl md:text-4xl font-bold px-4 text-white max-w-prose mx-auto text-3xl leading-relaxed">
 						{t("header.title")}
 					</h1>
 					<p className="text-lg mx-auto text-[#f0ead2] px-4 mt-4 font-bold">
