@@ -1,6 +1,6 @@
 {
 	"header.title": "Help Us Give Land Back, While Bringing Together Communities, With a Negative-Carbon Footprint",
-	"header.subtitle": "Join us in creating a sustainable future by investing in lands that are ensured to return to indigenous peoples",
+	"header.subtitle": "Join us in creating a sustainable future by investing in lands that are ensured to return to indigenous peoples.",
 	"header.participate": "Participate Now",
 	"video.title": "Can it be done?",
 	"video.noSupport": "Your browser does not support the video tag.",
@@ -10,15 +10,15 @@
 	"how.title": "The Plan",
 	"how.description": "Our process is designed to be transparent, inclusive, and sustainable. Each step is carefully planned to ensure that the land is returned to indigenous communities in a way that promotes long-term stewardship and ecological balance.",
 	"how.mini-title": "How it works",
-	"how.step1.alt": "Step 1: Community Engagement",
+	"how.step1.alt": "Step 1: Prospect land",
 	"how.step1.text": "Engage with local communities to understand their needs and aspirations. This step ensures that the project is community-driven and culturally sensitive.",
-	"how.step2.alt": "Step 2: Crowdfunding",
+	"how.step2.alt": "Step 2: Create designs and crowdfunding",
 	"how.step2.text": "Launch crowdfunding campaigns to pool resources for land acquisition and development. Transparency and accountability are key to building trust and support.",
-	"how.step3.alt": "Step 3: Land Acquisition",
+	"how.step3.alt": "Step 3: Campaign and land acquisition",
 	"how.step3.text": "Acquire land through transparent and legal means, ensuring that the process respects the rights and wishes of indigenous communities.",
-	"how.step4.alt": "Step 4: Sustainable Development",
+	"how.step4.alt": "Step 4: Signing of documents",
 	"how.step4.text": "Develop the land using sustainable practices, including carbon-negative housing, regenerative agriculture, and renewable energy installations.",
-	"how.step5.alt": "Step 5: Community Building",
+	"how.step5.alt": "Step 5: Development and community building",
 	"how.step5.text": "Foster a sense of community through shared stewardship, cultural exchange, and collaborative projects. This step is crucial for long-term sustainability and social cohesion.",
 	"how.step6.alt": "Step 6: Ongoing Management",
 	"how.step6.text": "Ensure the long-term success of the project through ongoing management, monitoring, and community engagement. Adapt and evolve based on feedback and changing needs.",
@@ -77,5 +77,8 @@
 	"contact.emailLabel": "Your Email",
 	"contact.nameLabel": "Your Name",
 	"contact.messageLabel": "Your Message",
-	"contact.sendButton": "Send"
+	"contact.sendButton": "Send",
+	"roadmap.items[0].year": "2024: Conceptualizing",
+	"roadmap.items[1].year": "Q1 2025: Planning Phase",
+	"lastUpdated": "2024-07-31T21:22:08.047Z"
 }

@@ -1,4 +1,4 @@
-# Getting Started with the Buy Land Back Toolkit
+# Buy Land Back Website
 
 This toolkit is designed to help you get started with the Buy Land Back project, which aims to create a sustainable alternative to traditional capitalistic practices in land and housing ownership. The project utilizes innovative crowdfunding strategies to finance the acquisition and development of land and housing units, ultimately returning the land to indigenous communities.
 
@@ -14,11 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -26,6 +21,18 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### `npm run content`
+
+The `npm run content` command is used to update the `en.json` file with the latest content from a Notion database. This script fetches data from the Notion database, processes it, and updates the `en.json` file located in the `src/assets/i18n` directory.
+
+To run this command, ensure you have the necessary environment variables set up:
+
+- `NOTION_API_KEY`: Your Notion API key.
+- `DATABASE_ID`: The ID of the Notion database you want to fetch data from.
+
+Once these environment variables are configured, you can run the command:
+
 
 ### `npm run eject`
 
@@ -37,76 +44,33 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-To learn more about the Buy Land Back project and its goals, refer to the main [README](./README.md).
-
-For more information on Create React App, you can check out the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The project is configured to automatically deploy to GitHub Pages when changes are pushed to the `main` branch. The deployment process is managed using a GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
+
+To manually trigger a deployment, you can push changes to the `main` branch, and the workflow will handle the rest.
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Populate en.json from Notion
+If the `npm run build` command fails to minify, refer to the [troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) for solutions.
 
-This script populates the `en.json` file with data extracted from a Notion published web page.
+## Working with Notion
 
-## Prerequisites
+To update the `en.json` file with data from a Notion database, follow these steps:
 
-- Node.js installed on your machine
-- A Notion published web page with the data you want to extract
+1. Ensure you have Node.js installed on your machine.
+2. Obtain a Notion API key and Database ID.
 
-## Setup
+### Steps to Update `en.json`
 
-1. Clone the repository and navigate to the project directory.
+1. Set your Notion API key and Database ID as environment variables and run the update command:
+   ```sh
+   NOTION_API_KEY=secret_xxx DATABASE_ID=xxx-xxx-xx npm run content
+   ```
+   Replace `secret_xxx` with your actual Notion API key and `xxx-xxx-xx` with your actual Database ID.
 
-```bash
-git clone YOUR_REPOSITORY_URL
-cd YOUR_PROJECT_DIRECTORY
-```
+2. The script `populate_en_json_notion_sdk.js` will fetch data from the specified Notion database and update the `en.json` file located in `src/assets/i18n/`.
 
-2. Install the required dependencies.
+3. The script will also create a backup of the current `en.json` file with a timestamp before updating it.
 
-```bash
-npm install node-fetch cheerio
-```
-
-3. Update the `NOTION_URL` variable in `scripts/populate_en_json.js` with the URL of your Notion published web page.
-
-4. Update the selectors in the `extractData` function in `scripts/populate_en_json.js` to match the structure of your Notion page.
-
-## Usage
-
-Run the script to populate the `en.json` file.
-
-```bash
-node scripts/populate_en_json.js
-```
-
-The script will fetch the data from the Notion page, extract the relevant information, and update the `en.json` file accordingly.
-
-## Notes
-
-- Ensure that the Notion page is publicly accessible.
-- Adjust the selectors in the `extractData` function to match the structure of your Notion page.
+By following these steps, you can ensure that your `en.json` file is always up-to-date with the latest content from your Notion database.

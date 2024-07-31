@@ -5,6 +5,7 @@ import image2 from "../assets/img/f_2.jpg";
 import image3 from "../assets/img/f_3.jpg";
 import image4 from "../assets/img/f_4.jpg";
 import image5 from "../assets/img/f_5.jpg";
+import { ReactComponent as Arrow } from "../assets/img/noun-curved-arrow-4120281.svg";
 import Divider from "./Divider";
 
 const How = () => {
@@ -36,8 +37,8 @@ const How = () => {
 								{t("how.description")}
 							</p>
 						</div>
-						<ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
-							{planItems.slice(0, 4).map((item) => (
+						<ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-y-20 gap-x-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+							{planItems.map((item) => (
 								<li
 									key={item.text}
 									className="flex-start group relative flex lg:flex-col"
@@ -65,6 +66,10 @@ const How = () => {
 									</div>
 								</li>
 							))}
+							<Arrow
+								className="hidden md:block relative -top-16 left-24"
+								src={image5}
+							/>
 						</ul>
 					</div>
 				</section>

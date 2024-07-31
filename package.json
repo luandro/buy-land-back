@@ -20,7 +20,8 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"lint": "npx @biomejs/biome check --write ./src ./public"
+		"lint": "npx @biomejs/biome check --write ./src ./public ./scripts",
+		"content": "node scripts/populate_en_json_notion_sdk.js"
 	},
 	"homepage": "https://luandro.github.io/buy-land-back/",
 	"eslintConfig": {
@@ -36,7 +37,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
+		"@notionhq/client": "^2.2.15",
 		"lefthook": "^1.7.11",
+		"marked": "^13.0.3",
+		"notion-to-md": "^3.1.1",
 		"tailwindcss": "^3.4.7"
 	}
 }

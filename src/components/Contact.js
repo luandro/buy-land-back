@@ -93,7 +93,7 @@ const Contact = () => {
 					))}
 					<button
 						type="submit"
-						className={`cursor-pointer py-4 px-12 text-lg mx-auto font-medium text-center text-white uppercase rounded-lg sm:w-fit focus:ring-4 focus:outline-none ${
+						className={`cursor-pointer py-4 px-12 text-lg mx-auto font-medium text-center text-white uppercase rounded-lg sm:w-fit focus:ring-4 focus:outline-none max-w-[300px] ${
 							status === "success"
 								? "hidden cursor-not-allowed"
 								: status === "sending"
@@ -105,7 +105,7 @@ const Contact = () => {
 						disabled={status === "sending" || status === "success"}
 					>
 						{status === "error" && setTimeout(() => setStatus("idle"), 3000)}
-						{i18next.t("contact.sendButton")}
+						{i18next.t("contact.sendButton").slice(0, 12)}
 					</button>
 					<div
 						className={`flex items-center justify-center ${status !== "success" && "hidden"}`}
