@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/buy-land-back/static/css/main.53a35c89.css",
-    "main.js": "/buy-land-back/static/js/main.b541098d.js",
+    "main.css": "/buy-land-back/static/css/main.1d6784c8.css",
+    "main.js": "/buy-land-back/static/js/main.a8627384.js",
     "static/js/453.1d4fbc7b.chunk.js": "/buy-land-back/static/js/453.1d4fbc7b.chunk.js",
     "static/media/video.mp4": "/buy-land-back/static/media/video.2c3c10a1c3b91569c1fa.mp4",
     "static/media/video-2.mp4": "/buy-land-back/static/media/video-2.430cafa47e11f486f278.mp4",
@@ -18,12 +18,12 @@
     "static/media/noun-feather-5651696.svg": "/buy-land-back/static/media/noun-feather-5651696.00da7e3a899e347b29dec10cda8c0494.svg",
     "static/media/noun-geodesic-dome-2185259.cleaned.svg": "/buy-land-back/static/media/noun-geodesic-dome-2185259.cleaned.b1f6f09af5fcd81a4547bcd266c245c4.svg",
     "index.html": "/buy-land-back/index.html",
-    "main.53a35c89.css.map": "/buy-land-back/static/css/main.53a35c89.css.map",
-    "main.b541098d.js.map": "/buy-land-back/static/js/main.b541098d.js.map",
+    "main.1d6784c8.css.map": "/buy-land-back/static/css/main.1d6784c8.css.map",
+    "main.a8627384.js.map": "/buy-land-back/static/js/main.a8627384.js.map",
     "453.1d4fbc7b.chunk.js.map": "/buy-land-back/static/js/453.1d4fbc7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53a35c89.css",
-    "static/js/main.b541098d.js"
+    "static/css/main.1d6784c8.css",
+    "static/js/main.a8627384.js"
   ]
 }
