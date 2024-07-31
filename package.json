@@ -19,7 +19,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"lint": "npx @biomejs/biome format --write ./src ./public"
+		"lint": "npx @biomejs/biome check --write ./src ./public"
 	},
 	"homepage": "https://luandro.github.io/buy-land-back/",
 	"eslintConfig": {

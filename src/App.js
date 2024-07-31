@@ -4,6 +4,10 @@ import Footer from "./components/Footer";
 import Frameworks from "./components/Frameworks";
 import Header from "./components/Header";
 import How from "./components/How";
+import Intro from "./components/Intro";
+import Participation from "./components/Participation";
+import Roadmap from "./components/Roadmap";
+import VideoSection from "./components/VideoSection";
 import Why from "./components/Why";
 
 function App() {
@@ -11,9 +15,10 @@ function App() {
 		<div className="App">
 			<Header />
 			<Intro />
+			<How />
 			<VideoSection />
 			<Why />
-			<How />
+			<Frameworks />
 			<Roadmap />
 			<Participation />
 			<Contact />

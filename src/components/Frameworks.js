@@ -1,5 +1,6 @@
 import React from "react";
 import i18next from "../i18n";
+import Divider from "./Divider";
 
 const frameworksData = [
 	{
@@ -41,14 +42,15 @@ const frameworksData = [
 ];
 
 const Frameworks = () => (
-	<section className="frameworks py-24 bg-[#dde5b4]">
-		<div className="container mx-auto px-4">
+	<section className="frameworks pb-24 bg-[#dde5b4]">
+		<Divider color="#f0ead2" direction="right" />
+		<div className="container mx-auto px-4 pt-24">
 			<h2 className="text-3xl font-bold pb-24 text-center text-[#6c584c]">
 				{i18next.t("frameworks.title")}
 			</h2>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-32">
-				{frameworksData.map((framework, index) => (
-					<div key={index} className="framework-category">
+				{frameworksData.map((framework) => (
+					<div key={framework.alt} className="framework-category">
 						<img
 							src={framework.imgSrc}
 							alt={i18next.t(framework.alt)}
