@@ -68,3 +68,45 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Populate en.json from Notion
+
+This script populates the `en.json` file with data extracted from a Notion published web page.
+
+## Prerequisites
+
+- Node.js installed on your machine
+- A Notion published web page with the data you want to extract
+
+## Setup
+
+1. Clone the repository and navigate to the project directory.
+
+```bash
+git clone YOUR_REPOSITORY_URL
+cd YOUR_PROJECT_DIRECTORY
+```
+
+2. Install the required dependencies.
+
+```bash
+npm install node-fetch cheerio
+```
+
+3. Update the `NOTION_URL` variable in `scripts/populate_en_json.js` with the URL of your Notion published web page.
+
+4. Update the selectors in the `extractData` function in `scripts/populate_en_json.js` to match the structure of your Notion page.
+
+## Usage
+
+Run the script to populate the `en.json` file.
+
+```bash
+node scripts/populate_en_json.js
+```
+
+The script will fetch the data from the Notion page, extract the relevant information, and update the `en.json` file accordingly.
+
+## Notes
+
+- Ensure that the Notion page is publicly accessible.
+- Adjust the selectors in the `extractData` function to match the structure of your Notion page.
